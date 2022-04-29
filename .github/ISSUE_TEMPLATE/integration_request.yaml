@@ -1,5 +1,5 @@
 name: New Tool Integration
-description: Keptn should integrate with this tool. Lets make it happen...
+description: Keptn should integrate with this tool. Let's make it happen...
 title: "[integration]: "
 labels: ["integration"]
 assignees:
@@ -19,7 +19,7 @@ body:
     id: joined_slack
     attributes:
       label: "#help-integrations on Slack"
-      description: I have checked joined #help-integrations channel on [Keptn Slack](https://slack.keptn.sh).
+      description: "I have joined #help-integrations channel on [Keptn Slack](https://slack.keptn.sh)."
       options:
         - label: "Yes"
           required: true
