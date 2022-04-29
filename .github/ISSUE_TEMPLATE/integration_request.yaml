@@ -9,8 +9,7 @@ body:
     attributes:
       value: |
         Keptn is designed to work with any tool. Use this form to request a new integration for a tool you use / love.
-        
-        Integration requests that are "assisted" (that is, the requester [you] are willing to assist in developing this integration) will have a higher priority.
+
   - type: checkboxes
     id: existing
     attributes:
@@ -19,11 +18,14 @@ body:
       options:
         - label: "Yes"
           required: true
+
   - type: dropdown
     id: assisted
     attributes:
       label: Assisted
-      description: Are you willing to assist during development of this integration?
+      description: |
+        Are you willing to assist during development of this integration?
+        Integration requests that are "assisted" (that is, the requester [you] are willing to assist in developing this integration) will have a higher priority.
       options:
         - "Yes"
         - "No"
