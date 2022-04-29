@@ -17,7 +17,7 @@ body:
       label: Existing Integrations Checked
       description: I have checked [here](https://keptn.sh/integrations) that an integration does not already exist
       options:
-        - label: Yes
+        - label: "Yes"
           required: true
   - type: dropdown
     id: assisted
