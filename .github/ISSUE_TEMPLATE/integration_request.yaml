@@ -1,6 +1,6 @@
 name: New Tool Integration
-description: Keptn should integrate with this tool. Let's make it happen...
-title: "[Integration]: "
+description: Keptn should integrate with this tool. Lets make it happen...
+title: "[integration]: "
 labels: ["integration"]
 assignees:
   - agardnerit
@@ -8,13 +8,25 @@ body:
   - type: markdown
     attributes:
       value: |
-        Keptn is designed to work with any tool. Use this form to request a new integration for a tool you use / love.
+        Keptn is designed to work with any tool. Use this form to request a new integration for a tool you use.
+		
+		If your tool is already containerised or can run as a script (PowerShell, Shell or Python), look into the [job executor service](https://github.com/keptn-contrib/job-executor-service).
+		If you only need to notify a tool of a Keptn event, use the [webhook service](https://github.com/keptn/keptn/tree/master/webhook-service) (comes preinstalled with Keptn).
 
   - type: checkboxes
     id: existing
     attributes:
-      label: Existing Integrations Checked
-      description: I have checked [here](https://keptn.sh/docs/integrations) that an integration does not already exist
+      label: No Existing Integrations
+      description: I have checked [here](https://keptn.sh/docs/integrations) that an integration does not already exist.
+      options:
+        - label: "Yes"
+          required: true
+
+  - type: checkboxes
+    id: existing
+    attributes:
+      label: No Existing Integrations
+      description: I have checked [here](https://keptn.sh/docs/integrations) that an integration does not already exist.
       options:
         - label: "Yes"
           required: true
@@ -31,6 +43,7 @@ body:
         - "No"
     validations:
       required: true
+
   - type: input
     id: contact
     attributes:
@@ -39,6 +52,7 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: false
+
   - type: textarea
     id: other_info
     attributes:
