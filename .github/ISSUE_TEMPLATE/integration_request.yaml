@@ -28,7 +28,7 @@ body:
     attributes:
       label: "Goal"
       description: "What are you looking to achieve with this integration?"
-	  placeholder: eg. I want to trigger this tool from a Keptn task
+	  placeholder: "eg. I want to trigger this tool from a Keptn task"
       #render: shell
 
   - type: checkboxes
