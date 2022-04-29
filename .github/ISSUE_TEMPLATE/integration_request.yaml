@@ -18,7 +18,7 @@ body:
       label: Assisted
       description: Are you willing to assist during development of this integration?
       options:
-        - "Yes"
+        - "Yes (Default)"
         - "No"
     validations:
       required: true
