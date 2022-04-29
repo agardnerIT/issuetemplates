@@ -9,7 +9,9 @@ body:
     attributes:
       value: |
         Keptn is designed to work with any tool. Use this form to request a new integration for a tool you use / love.
-        Note: Integration requests that are "assisted" (that is, the requester [you] are willing to assist in developing this integration) will have a higher priority.
+        
+        Integration requests that are "assisted" (that is, the requester [you] are willing to assist in developing this integration) will have a higher priority.
+        
   - type: dropdown
     id: assisted
     attributes:
