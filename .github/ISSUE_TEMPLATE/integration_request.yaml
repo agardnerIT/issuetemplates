@@ -11,7 +11,14 @@ body:
         Keptn is designed to work with any tool. Use this form to request a new integration for a tool you use / love.
         
         Integration requests that are "assisted" (that is, the requester [you] are willing to assist in developing this integration) will have a higher priority.
-        
+  - type: checkboxes
+    id: existing
+    attributes:
+      label: Existing Integrations Checked
+      description: I have checked [here](https://keptn.sh/integrations) that an integration does not already exist
+      options:
+        - label: I have checked [here](https://keptn.sh/integrations) that an integration does not already exist
+          required: true
   - type: dropdown
     id: assisted
     attributes:
