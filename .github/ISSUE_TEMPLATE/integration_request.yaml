@@ -16,7 +16,7 @@ body:
   - type: checkboxes
     id: joined_slack
     attributes:
-      label: #help-integrations on Slack
+      label: "#help-integrations on Slack"
       description: I have checked joined #help-integrations channel on [Keptn Slack](https://slack.keptn.sh).
       options:
         - label: "Yes"
