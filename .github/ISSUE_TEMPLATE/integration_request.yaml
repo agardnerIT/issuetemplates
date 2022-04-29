@@ -29,7 +29,7 @@ body:
       label: "Goal"
       description: "What are you looking to achieve with this integration?"
       placeholder: "eg. I want to trigger this tool from a Keptn task"
-      #render: shell
+      render: shell
 
   - type: checkboxes
     id: joined_slack
@@ -76,4 +76,3 @@ body:
     attributes:
       label: Any other info?
       description: Any other info that might assist in developing / prioritising this integration?
-      render: shell
