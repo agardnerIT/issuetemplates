@@ -15,6 +15,22 @@ body:
         - If your tool is already containerised or can run as a script (PowerShell, Shell or Python), look into the [job executor service](https://github.com/keptn-contrib/job-executor-service).
         - If you only need to notify a tool of a Keptn event, use the [webhook service](https://github.com/keptn/keptn/tree/master/webhook-service) (comes preinstalled with Keptn).
 
+  - type: input
+    id: tool
+    attributes:
+      label: "Tool / Product Name"
+      description: "What tool / product / project would you like to integrate with?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: tool_how
+    attributes:
+      label: "Goal"
+      description: "What are you looking to achieve with this integration?"
+	  placeholder: eg. I want to trigger this tool from a Keptn task
+      #render: shell
+
   - type: checkboxes
     id: joined_slack
     attributes:
