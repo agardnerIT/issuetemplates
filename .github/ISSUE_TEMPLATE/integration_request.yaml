@@ -14,16 +14,16 @@ body:
         If you only need to notify a tool of a Keptn event, use the [webhook service](https://github.com/keptn/keptn/tree/master/webhook-service) (comes preinstalled with Keptn).
 
   - type: checkboxes
-    id: existing
+    id: joined_slack
     attributes:
-      label: No Existing Integrations
-      description: I have checked [here](https://keptn.sh/docs/integrations) that an integration does not already exist.
+      label: #help-integrations on Slack
+      description: I have checked joined #help-integrations channel on [Keptn Slack](https://slack.keptn.sh).
       options:
         - label: "Yes"
           required: true
 
   - type: checkboxes
-    id: existing
+    id: existing_integrations
     attributes:
       label: No Existing Integrations
       description: I have checked [here](https://keptn.sh/docs/integrations) that an integration does not already exist.
